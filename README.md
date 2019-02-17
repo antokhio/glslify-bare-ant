@@ -1,5 +1,5 @@
 # glslify-bare-ant
-glslify browserify transform with extra extensions
+glslify browserify transform with extra extensions, to compile glsl shaders using require.
 
 ripped from https://github.com/jnordberg/glslify-bare
 
@@ -10,3 +10,8 @@ usage
     }
 }
     
+takes .glsl, .vert, .frag extensions
+
+allows:
+
+vertexShader: require('../glsl/sprite.vert')
